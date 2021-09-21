@@ -23,6 +23,10 @@ header {
     right: 30px;
 }
 
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
 
 
 
@@ -44,7 +48,30 @@ header {
 
 /* main content */
 .hero{
+    position: relative;
     height: 100vh;
+}
+
+.hero-content{
+    width:600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero-content h1.red,
+.hero-content h1.green {
+    color: rgb(252, 252, 111);
+}
+
+.hero-content h1.yellow {
+    color: rgb(82, 230, 82);
 }
 
 #red-hero {
