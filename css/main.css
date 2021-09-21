@@ -6,29 +6,22 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* tags */
 html {
     scroll-behavior: smooth;
 }
 
-/* body {
-    background-color: lightgray;
-} */
-
-
-
-/* tags */
 header {
     position: fixed;
     top: 30px;
     right: 30px;
+    z-index: 1;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
 }
-
-
 
 /* utilities */
 
